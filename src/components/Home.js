@@ -3,10 +3,6 @@ import React from 'react';
 function Home() {
     return (
         <div>
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-                NavBar
-            </nav>
-
             <div className="container-fluid">
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-9">
