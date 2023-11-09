@@ -3,7 +3,7 @@ import {Container, Navbar, Nav} from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+        <Navbar expand="lg" className="bg-body-tertiary fixed-top" bg="dark" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="#home">LTC-RX</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
