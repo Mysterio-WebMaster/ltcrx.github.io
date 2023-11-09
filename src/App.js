@@ -1,14 +1,21 @@
 import './App.css';
 import Home from "./components/Home";
-import Navbar from "./components/NavBar";
-import Body from "./components/Body";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import {Stack} from "react-bootstrap";
+import Instalacoes from "./components/Instalacoes";
+import CorpoTecnico from "./components/CorpoTecnico";
 
 function App() {
     return (
         <div className="App">
-            <Navbar/>
-            <Body/>
-            <Home/>
+            <Stack>
+                <Header/>
+                <Home/>
+                <Instalacoes/>
+                <CorpoTecnico/>
+                <Footer/>
+            </Stack>
         </div>
     );
 }
